@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+    color: blueviolet;
+    background: black;
+    border: 20px;
+    border: yellow solid 5px;
+}
+
+div{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(164, 175, 175);
+    border: black solid 5px;
+    margin: 0 auto;
+    width: 50%;
+}
