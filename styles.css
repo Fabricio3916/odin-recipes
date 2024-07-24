@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    
 }
 
 h1{
@@ -21,21 +23,32 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     border: black solid 5px;
-    margin: 0 auto;
+    margin: auto;
     }
 
 img{
+    
     width: 200px;
+    margin: 5px;
     object-fit: cover;
     border-radius: 10px;
+    border: solid ;
+    gap: 522px;
+
+    
 }
 .recipe-list{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(164, 175, 175);
+    background-color: black;
     border: black solid 5px;
     border-top: yellow solid 5px;
     margin: 0 auto;
     width: 50%;
-    
+    padding: 5px 20px ;
+    color: #fff;
 }
+
+a{
+    color: #fff;
+}
+
+
