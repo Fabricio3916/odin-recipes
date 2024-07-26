@@ -46,15 +46,14 @@ img{
 
 .recipes{
     margin: 0 auto;
-    width: 50%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    flex-wrap: wrap;
 }
 
 a{
     color: #fff;
 }
+
 
 
