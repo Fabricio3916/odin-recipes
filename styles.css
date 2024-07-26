@@ -7,8 +7,8 @@
 }
 
 h1{
-    margin: 0 auto;
     width: 50%;
+    margin: 0 auto;
     text-align: center;
     padding: 30px;
     color: #fff;
@@ -17,37 +17,36 @@ h1{
     border-bottom: yellow solid 5px;
 }
 .gallery{
+    margin: 0 auto;
     width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: ;
     justify-content: center;
     border: black solid 5px;
-    margin: auto;
     background-color: black;
 }
 
 img{
-    
     width: 200px;
     margin: 5px;
     border-radius: 10px;
     border: solid yellow 2px;
-    gap: 522px;
-
-    
+   
 }
 .recipe-list{
+    margin: 0 auto;
+    width: 50%;
     background-color: black;
     border: black solid 5px;
     border-top: yellow solid 5px;
-    margin: 0 auto;
-    width: 50%;
     padding: 5px 20px ;
     color: #fff;
 }
 
 .recipes{
+    width: 50%;
     display: flex;
     justify-content: space-around;
 
