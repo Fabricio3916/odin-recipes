@@ -25,15 +25,14 @@ h1{
     border: black solid 5px;
     margin: auto;
     background-color: black;
-    }
+}
 
 img{
     
     width: 200px;
     margin: 5px;
-    object-fit: cover;
     border-radius: 10px;
-    border: solid ;
+    border: solid yellow 2px;
     gap: 522px;
 
     
@@ -46,6 +45,12 @@ img{
     width: 50%;
     padding: 5px 20px ;
     color: #fff;
+}
+
+.recipes{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 a{
