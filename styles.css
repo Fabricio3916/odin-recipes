@@ -6,19 +6,24 @@
     
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
 h1{
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
     padding: 30px;
     color: #fff;
     background: black;
     border: 20px;
     border-bottom: yellow solid 5px;
+    width: 800px;
 }
 .gallery{
-    margin: 0 auto;
-    width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,11 +37,10 @@ img{
     margin: 5px;
     border-radius: 10px;
     border: solid yellow 2px;
+    flex: 1;
    
 }
 .recipe-list{
-    margin: 0 auto;
-    width: 50%;
     background-color: black;
     border: black solid 5px;
     border-top: yellow solid 5px;
@@ -45,10 +49,11 @@ img{
 }
 
 .recipes{
+    width: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    padding: 14px;
 }
 
 a{
